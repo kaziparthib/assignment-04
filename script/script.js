@@ -61,6 +61,7 @@ currentStatus=id
     }else if (id == 'rejected-btn'){
       allCards.classList.add('hidden');
         filterSection.classList.remove('hidden')
+        
         rejectedRender()
     }
   
@@ -139,16 +140,19 @@ const interViewCounterExist = rejectedCounter.find(item => item.company == cardI
 
    }
 
-  //  if(event.target.classList.contains('dlt-btn')){
-  //   const dlt=event.target.parentNode.parentNode
-  //   dlt.remove()
-    
-  //  }
+  
    
 } )
 
 function interviewRender(){
-   filterSection.innerHTML=''
+   filterSection.innerHTML=`
+    
+   
+   `
+   
+  
+   
+   
 
    for(count of interViewCounter){
   //  console.log(count)
@@ -185,44 +189,50 @@ function interviewRender(){
 }
 
 
-// breakkkkkkkkkkkk
+
 
 
 
 function rejectedRender(){
-   filterSection.innerHTML=' <p></p>'
+  
+  
+   
+    filterSection.innerHTML=` `
 
    for(reCount of rejectedCounter){
   //  console.log(reCount)
+  
+    
     
     let div=document.createElement('div')
-    div.className='shadow-2xl flex justify-between px-4 py-4 mt-2.5 mb-2.5'
+     div.className='shadow-2xl flex justify-between px-4 py-4 mt-2.5 mb-2.5'
     div.innerHTML=`
       
    <!-- card-1 left -->
                 <div class="card space-y-3.5">
-                     <h2 class="company">${reCount.company}</h2>
-                     <p class="role">${reCount.role}</p>
-                     <p class="type">${reCount.type}</p>
-                     <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">${reCount.status}</p>
-                     <p class="intro">${reCount.intro}</p>
-                     <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
-                        <button class=" reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                      <h2 class="company">${reCount.company}</h2>
+                   <p class="role">${reCount.role}</p>
+                   <p class="type">${reCount.type}</p>
+                   <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">${reCount.status}</p>
+                   <p class="intro">${reCount.intro}</p>
+                   <div class="card-buttons flex gap-3.5">
+                     <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>                     
+                     <button class=" reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
-                 </div>
-                 <!-- card-1 right -->
-                  <div class=" card-1 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
-                  </div>
+                     </div>
+                  <!-- card-1 right -->
+                   <div class=" card-1 button">
+                     <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                   </div>
 
 
 
 
 
 
-    `
-    filterSection.appendChild(div)
+     `
+    
+     filterSection.appendChild(div)
    }
 }
 

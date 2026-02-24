@@ -26,9 +26,9 @@
 <body class="geist ">
 
   <section class="max-w-6xl mx-auto pt-5 pb-6  border-b-2 border-b-gray-400">
-    <h1 class="text-blue-950  font-bold">Job Application Tracker</h1>
+    <h1 class="text-blue-950 text-[40px]  font-bold">Job Application Tracker</h1>
 
-      <div class="count mt-4  grid grid-cols-3 gap-2.5 ">
+      <div class="count mt-4 grid grid-cols-3 gap-2.5 ">
         <div class="total-count shadow-2xl p-3.5 rounded-2xl">
           <p >Total</p>
           <p id="t-num" class=" text-black">0</p>
@@ -55,9 +55,9 @@
          </div>
               <!-- buttons -->
          <div class=" flex gap-2.5">
-          <button onclick="toggle('all-btn')" id="all-btn" class="bg-blue-600 text-white w-[80px] px-5 py-3 rounded-2xl">All</button>
-          <button onclick="toggle('interview-btn')" id="interview-btn" class=" bg-amber-50/100 w-[100px] px-5 py-3 rounded-2xl">Interview</button>
-          <button onclick="toggle('rejected-btn')" id="rejected-btn" class=" bg-amber-50/100 w-[100px] px-5 py-3 rounded-2xl">Rejected</button>
+          <button onclick="toggle('all-btn')" id="all-btn" class=" cursor-pointer  bg-blue-600 text-white w-[80px] px-5 py-3 rounded-2xl">All</button>
+          <button onclick="toggle('interview-btn')" id="interview-btn" class="cursor-pointer bg-amber-50/100 w-[100px] px-5 py-3 rounded-2xl">Interview</button>
+          <button onclick="toggle('rejected-btn')" id="rejected-btn" class="cursor-pointer bg-amber-50/100 w-[100px] px-5 py-3 rounded-2xl">Rejected</button>
          </div>
 
        <!-- blank-section -->
@@ -78,13 +78,13 @@
                      <p class="status  bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
                      <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
-                        <button class=" reject-btn   bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class=" inter-btn cursor-pointer bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
+                        <button class=" reject-btn cursor-pointer  bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                  <!-- card-1 right -->
                   <div class=" card-1 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div>
 
@@ -98,13 +98,13 @@
                      <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
                      <div class=" flex gap-3.5">
-                       <button class="inter-btn   bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl">Interview</button>
-                        <button class="reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class="inter-btn cursor-pointer  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl">Interview</button>
+                        <button class="reject-btn cursor-pointer  bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                        <!-- card-2 right -->
                   <div class=" card-2 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div>
 
@@ -118,13 +118,13 @@
                      <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">Transform complex data into compelling visualizations. Required skills: D3.js, React, and strong analytical thinking.</p>
                      <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl">Interview</button>
-                        <button class=" reject-btn bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class=" inter-btn cursor-pointer bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl">Interview</button>
+                        <button class=" reject-btn cursor-pointer bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                        <!-- card-3 right -->
                   <div class=" card-3 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div> 
          <!-- card4 -->
@@ -137,13 +137,13 @@
                      <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">Design and maintain scalable backend systems using Python and AWS. Work with modern DevOps practices and cloud infrastructure.</p>
                      <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl">Interview</button>
-                        <button class=" reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class=" inter-btn cursor-pointer bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl">Interview</button>
+                        <button class=" reject-btn cursor-pointer   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                  <!-- card-1 right -->
                   <div class=" card-1 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div> 
               <!-- 5 -->
@@ -156,13 +156,13 @@
                      <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">Create beautiful and functional user interfaces for our suite of products. Strong design skills and frontend development expertise required.</p>
                      <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
-                        <button class=" reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class=" inter-btn cursor-pointer bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
+                        <button class=" reject-btn cursor-pointer  bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                  <!-- card-1 right -->
                   <div class=" card-1 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div>
               <!-- 6 -->
@@ -175,13 +175,13 @@
                      <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">Build enterprise applications with JavaScript and modern frameworks. We offer competitive compensation, health insurance, and professional development opportunities.</p>
                      <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
-                        <button class=" reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class=" inter-btn cursor-pointer bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
+                        <button class=" reject-btn cursor-pointer  bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                  <!-- card-1 right -->
                   <div class=" card-1 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div>
               <!-- 7 -->
@@ -194,13 +194,13 @@
                      <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">Join our fast-growing startup and work on our core platform. Experience with Node.js and React required. Great benefits and equity package included.</p>
                      <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
-                        <button class=" reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class=" inter-btn cursor-pointer bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
+                        <button class=" reject-btn cursor-pointer  bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                  <!-- card-1 right -->
                   <div class=" card-1 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div>
               <!-- 8 -->
@@ -213,13 +213,13 @@
                      <p class="status bg-blue-300 w-[120px] px-3 py-3 rounded-lg">Not Applied</p>
                      <p class="intro">We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.</p>
                      <div class="card-buttons flex gap-3.5">
-                       <button class=" inter-btn  bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
-                        <button class=" reject-btn   bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
+                       <button class=" inter-btn cursor-pointer bg-white border-2 text-green-500 w-[150px] px-5 py-3 rounded-2xl ">Interview</button>
+                        <button class=" reject-btn  cursor-pointer bg-white border-2 text-red-500 w-[150px] px-5 py-3 rounded-2xl">Rejected</button>
                       </div>
                  </div>
                  <!-- card-1 right -->
                   <div class=" card-1 button ">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer bg-blue-400 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
                   </div>
               </div>
 
@@ -227,8 +227,9 @@
 
 
     </section>
-    
 
+ 
+    
 <!-- js -->
   <script src="./script/script.js"></script>
 </body>
