@@ -175,7 +175,7 @@ function interviewRender(){
                  </div>
                  <!-- card-1 right -->
                   <div class=" card-1 button">
-                      <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                      <button class=" dlt-btn cursor-pointer border-2 border-gray-400  w-[50px] h-[50px] px-1 py-1 rounded-full"><i class="fa-solid fa-trash-can pointer-events-none"></i></button>
                   </div>
 
 
@@ -222,7 +222,7 @@ function rejectedRender(){
                      </div>
                   <!-- card-1 right -->
                    <div class=" card-1 button">
-                     <button class=" dlt-btn bg-blue-600 text-white w-[100px] px-5 py-3 rounded-2xl">delete</button>
+                     <button class=" dlt-btn cursor-pointer border-2 border-gray-400  w-[50px] h-[50px] px-1 py-1 rounded-full"><i class="fa-solid fa-trash-can pointer-events-none"></i></button>
                    </div>
 
 
